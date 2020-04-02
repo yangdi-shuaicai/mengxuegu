@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class UserController {
     @ResponseBody
     @RequestMapping("/lala")
-    public String ceshi()
+    public String ceshi1()
     {
         return "测试代码吗";
     }
