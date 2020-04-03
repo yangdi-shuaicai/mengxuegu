@@ -19,5 +19,11 @@ public class UserController {
     {
         return "测试代码258";
     }
+    @ResponseBody
+    @RequestMapping("/la6")
+    public String ceshi6()
+    {
+        return "测试代码258";
+    }
 
 }
