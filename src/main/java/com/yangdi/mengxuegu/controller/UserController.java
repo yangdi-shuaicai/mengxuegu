@@ -15,7 +15,13 @@ public class UserController {
 
     @ResponseBody
     @RequestMapping("/la")
-    public String ceshi3()
+    public String ceshi4()
+    {
+        return "测试代码258";
+    }
+    @ResponseBody
+    @RequestMapping("/la5")
+    public String ceshi5()
     {
         return "测试代码258";
     }
