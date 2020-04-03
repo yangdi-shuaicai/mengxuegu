@@ -17,7 +17,7 @@ public class UserController {
     @RequestMapping("/la")
     public String ceshi4()
     {
-        return "测试代码2";
+        return "测试代码258";
     }
 
 }
